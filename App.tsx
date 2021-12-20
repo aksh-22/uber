@@ -27,6 +27,8 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import Icon from 'react-native-vector-icons/dist/Ionicons';
+
 const Section: React.FC<{
   title: string;
 }> = ({children, title}) => {
@@ -68,7 +70,9 @@ const App = () => {
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
+          
         <Header />
+        <Icon name='close' size={30} color="#900" />
         <View
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
