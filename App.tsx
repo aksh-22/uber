@@ -72,7 +72,7 @@ const App = () => {
         style={backgroundStyle}>
           
         <Header />
-        <Icon name='close' size={30} color="#900" />
+        <Icon name='add' size={30} color="#900" />
         <View
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
